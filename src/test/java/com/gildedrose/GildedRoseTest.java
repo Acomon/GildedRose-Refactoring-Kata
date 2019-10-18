@@ -2,6 +2,7 @@ package com.gildedrose;
 
 import static org.junit.Assert.*;
 
+import com.gildedrose.model.Item;
 import org.junit.Before;
 import org.junit.Test;
 

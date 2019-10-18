@@ -1,5 +1,8 @@
 package com.gildedrose;
 
+import com.gildedrose.model.Item;
+import com.gildedrose.service.AdjustValueService;
+
 class GildedRose {
     Item[] items;
     private AdjustValueService adjustValueService;
@@ -24,7 +27,6 @@ class GildedRose {
                 }
             }
         }
-
     }
 
     private void conjured(Item item) {
